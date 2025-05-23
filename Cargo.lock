@@ -2669,7 +2669,7 @@ name = "fedimint-bip39"
 version = "0.8.0-alpha"
 dependencies = [
  "bip39",
- "fedimint-client",
+ "fedimint-client-module",
  "fedimint-core",
  "fedimint-derive-secret",
  "rand 0.8.5",

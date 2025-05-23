@@ -5,7 +5,7 @@
 use std::io::{Read, Write};
 
 pub use bip39::{Language, Mnemonic};
-use fedimint_client::secret::RootSecretStrategy;
+use fedimint_client_module::secret::RootSecretStrategy;
 use fedimint_core::encoding::{Decodable, DecodeError, Encodable};
 use fedimint_core::module::registry::ModuleRegistry;
 use fedimint_derive_secret::DerivableSecret;

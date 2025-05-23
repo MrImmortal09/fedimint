@@ -16,7 +16,7 @@ path = "./src/lib.rs"
 
 [dependencies]
 bip39 = { workspace = true, features = ["rand"] }
-fedimint-client = { workspace = true }
+fedimint-client-module = { workspace = true }
 fedimint-core = { workspace = true }
 fedimint-derive-secret = { workspace = true }
 rand = { workspace = true }
